@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|solutionrelative:lab2b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6855B7B0-4B26-47E0-8A28-C7AD18A9600A}|Lab2A\\Lab2A.csproj|c:\\users\\patri\\desktop\\github projects\\c# shapes assignment 2\\assignment 2\\lab2a\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6855B7B0-4B26-47E0-8A28-C7AD18A9600A}|Lab2A\\Lab2A.csproj|solutionrelative:lab2a\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|c:\\users\\patri\\desktop\\github projects\\c# shapes assignment 2\\assignment 2\\lab2b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|solutionrelative:lab2b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Box.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2A\\Box.cs",
+              "RelativeDocumentMoniker": "Lab2A\\Box.cs",
+              "ToolTip": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2A\\Box.cs",
+              "RelativeToolTip": "Lab2A\\Box.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:04:35.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Lab2B\\Form1.Designer.cs",
@@ -53,14 +70,14 @@
               "RelativeDocumentMoniker": "Lab2B\\Form1.cs",
               "ToolTip": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.cs",
               "RelativeToolTip": "Lab2B\\Form1.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAA0wGEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T04:18:26.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.cs",
               "RelativeDocumentMoniker": "Lab2B\\Form1.cs",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Program.cs",
               "RelativeDocumentMoniker": "Lab2B\\Program.cs",

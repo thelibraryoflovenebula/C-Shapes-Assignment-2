@@ -19,6 +19,10 @@ namespace Lab2B
         //ATTRIBUTES
 
         //CONSTRUCTOR
+        /// <summary>
+        /// Form1() constructor, initializes everything
+        /// also starts program with specific state -> jane button clicked, adult button clicked
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +31,18 @@ namespace Lab2B
         }
 
         //METHODS
+        /// <summary>
+        /// CALCULATE METHOD (void, no return)
+        /// encompasses:
+        ///     - validation for at least one button check for each group
+        ///     - makes use of TotalCalc class to calculate necessary values on each clicked event 
+        ///     - validation for integer input from user (TryParse)
+        /// 
+        /// 
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void calcBtn_Click(object sender, EventArgs e)
         {
 
@@ -42,7 +58,7 @@ namespace Lab2B
             int visitValidation = 0;
 
 
-            if (!allChecked)
+            if (!allChecked) 
             {
                 testBox.Text = "Must check at least one service.";
                 testBox.ForeColor = Color.Red;
@@ -56,7 +72,7 @@ namespace Lab2B
                         //reset text box
                         testBox.Text = "";
 
-                        //HAIRDRESSOR PICK
+                        //HAIRDRESSOR PICK [for TotalCalc Constructor]
                         int dresser = 0;
                         if (janeRadioBtn.Checked)     { dresser = 1; }
                         else if (patRadioBtn.Checked) { dresser = 2; }
@@ -64,25 +80,28 @@ namespace Lab2B
                         else if (sueRadioBtn.Checked) { dresser = 4; }
                         else /*lauraRadioBtn.Checked*/{ dresser = 5; }
 
-                        //SERVICE CHECK
+                        //SERVICE CHECK [for TotalCalc Constructor]
                         string serviceString = "";
                         if (cutCheckBtn.Checked)        { serviceString += "X"; } else { serviceString += "O"; }
                         if (colourCheckBtn.Checked)     { serviceString += "X"; } else { serviceString += "O"; }
                         if (highlightCheckBtn.Checked)  { serviceString += "X"; } else { serviceString += "O"; }
                         if (extCheckBtn.Checked)        { serviceString += "X"; } else { serviceString += "O"; }
 
-                        //CLIENT PICK 
-                        
+                        //CLIENT PICK  [for TotalCalc Constructor]
+
                         int client = 0;
                         if (adultRadioBtn.Checked)          { client = 1; }
                         else if (childRadioBtn.Checked)     { client = 2; }
                         else if (studentRadioBtn.Checked)   { client = 3; }
                         else  /*seniorRadioBtn.Checked */   { client = 4; }
 
-                        int visit = visitValidation; //already implemented
+                        int visit = visitValidation; //already implemented [for TotalCalc Constructor]
 
+
+                        
                         TotalCalc calc = new TotalCalc(dresser, serviceString, client, visit);
 
+                        //output to designated textboxes
                         dresserOutput.Text = $"${calc.baseRate:F2}";
                         serviceOutput.Text = $"${calc.serviceRate:F2}";
                         clientOutput.Text = $"${calc.clientDiscount:F2}";
@@ -104,6 +123,13 @@ namespace Lab2B
             }
         }
 
+        /// <summary>
+        /// helper method for calcBtn_click() function
+        /// assists for local allChecked gate (&& for all three checks)
+        /// for hair dresser group box [radio button] 
+        /// 
+        /// </summary>
+        /// <returns>boolean, true if one checked, false if none checked </returns>
         private bool hairDresserCheck()
         {
             if (!janeRadioBtn.Checked &&
@@ -120,6 +146,13 @@ namespace Lab2B
             }
         }
 
+        /// <summary>
+        /// helper method for calcBtn_click() function
+        /// assists for local allChecked gate (&& for all three checks)
+        /// for services group box [check box]
+        /// 
+        /// </summary>
+        /// <returns>boolean, true if one checked, false if none checked </returns>
         private bool servicesCheck()
         {
             if (!cutCheckBtn.Checked &&
@@ -135,6 +168,13 @@ namespace Lab2B
             }
         }
 
+        /// <summary>
+        /// helper method for calcBtn_click() function
+        /// assists for local allChecked gate (&& for all three checks)
+        /// for client group box [radio button] 
+        /// 
+        /// </summary>
+        /// <returns>boolean, true if one checked, false if none checked </returns>
         private bool clientCheck()
         {
             if(!adultRadioBtn.Checked &&
@@ -150,6 +190,13 @@ namespace Lab2B
             }
         }
 
+        /// <summary>
+        /// Clear button event handler to clear buttons
+        /// unchecks everything, resets to start point
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void clearBtn_Click(object sender, EventArgs e)
         {
             //HAIRDRESSER UNCHECKER
@@ -179,6 +226,7 @@ namespace Lab2B
                 }
             }
 
+            //reset specific start points, textboxes, radio/check btns 
             janeRadioBtn.Checked = true;
             adultRadioBtn.Checked = true;
             testBox.Text = "";
@@ -195,6 +243,11 @@ namespace Lab2B
 
         }
 
+        /// <summary>
+        /// exit button, to close program
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void exitBtn_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -203,6 +256,7 @@ namespace Lab2B
 
 
     /// <summary>
+    /// TOTAL CALCULATION CLASS 
     /// class for making total calculations
     /// 
     /// resorted to object orienteted code for calculating and 
@@ -219,6 +273,18 @@ namespace Lab2B
 
 
         //CONSTRUCTOR
+        /// <summary>
+        /// Constructor for Total Calculation
+        /// 
+        /// params take validated int choices, and string binary choices.
+        /// outputs necessary numbers into instance's variables
+        /// 
+        /// 
+        /// </summary>
+        /// <param name="dresser">   choice of dresser, chosen through radio  </param>
+        /// <param name="services">  specific set of service checkboxes ("XXXX" -> "OOOO"), length of 4, choice of 2^4 possibilites   </param>
+        /// <param name="client">    client type chooser, chosen through radio   </param>
+        /// <param name="visits">    visit integer input (already validated   </param>
         public TotalCalc(int dresser, string services, int client, int visits)
         {
             //DRESSER
@@ -232,6 +298,7 @@ namespace Lab2B
             }
 
             //SERVICES
+            //calls helper method to calculate service
             this.serviceRate = serviceCalc(services);
 
             //local variable totalBase
@@ -274,6 +341,11 @@ namespace Lab2B
         }
 
         //METHODS
+        /// <summary>
+        /// Helper method to calculate service instance variable
+        /// </summary>
+        /// <param name="s"> string input translated from checkbox. MUST BE LENGTH OF 4</param>
+        /// <returns></returns>
         private double serviceCalc(string s) //XOXO ONLY 4 CHARACTERS
         {
             double totalService = 0;

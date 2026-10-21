@@ -47,7 +47,7 @@ namespace Lab2A
                     "B: Square\t\tG: Tetrahedron\n" +
                     "C: Triangle\t\tH: Sphere\n" +
                     "D: Circle\t\tI: Cylinder\n" +
-                    "E: Ellipse\tJ: Cube\n\n" +
+                    "E: Ellipse\t\tJ: Cube\n\n" +
                    $"0: List all shapes\tX: Exit\n\nCOUNT OF SHAPES: [{Shape.GetCount()}] \n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n"
                     );
 

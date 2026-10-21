@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\lab2b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|solutionrelative:lab2b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6855B7B0-4B26-47E0-8A28-C7AD18A9600A}|Lab2A\\Lab2A.csproj|c:\\users\\patri\\desktop\\github projects\\c# shapes assignment 2\\assignment 2\\lab2a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6855B7B0-4B26-47E0-8A28-C7AD18A9600A}|Lab2A\\Lab2A.csproj|solutionrelative:lab2a\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6855B7B0-4B26-47E0-8A28-C7AD18A9600A}|Lab2A\\Lab2A.csproj|c:\\users\\patri\\desktop\\github projects\\c# shapes assignment 2\\assignment 2\\lab2a\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6855B7B0-4B26-47E0-8A28-C7AD18A9600A}|Lab2A\\Lab2A.csproj|C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\lab2a\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6855B7B0-4B26-47E0-8A28-C7AD18A9600A}|Lab2A\\Lab2A.csproj|solutionrelative:lab2a\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|c:\\users\\patri\\desktop\\github projects\\c# shapes assignment 2\\assignment 2\\lab2b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|solutionrelative:lab2b\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\lab2b\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|solutionrelative:lab2b\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\lab2b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BACA5B02-4684-4916-8B3A-475CF61A17DB}|Lab2B\\Lab2B.csproj|solutionrelative:lab2b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2A\\Program.cs",
+              "RelativeDocumentMoniker": "Lab2A\\Program.cs",
+              "ToolTip": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2A\\Program.cs",
+              "RelativeToolTip": "Lab2A\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T16:59:53.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,56 +49,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T16:04:35.631Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Lab2B\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.Designer.cs",
-              "RelativeToolTip": "Lab2B\\Form1.Designer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwPoBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T15:16:09.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.cs",
-              "RelativeDocumentMoniker": "Lab2B\\Form1.cs",
-              "ToolTip": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.cs",
-              "RelativeToolTip": "Lab2B\\Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T04:18:26.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.cs",
-              "RelativeDocumentMoniker": "Lab2B\\Form1.cs",
-              "ToolTip": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Form1.cs [Design]",
-              "RelativeToolTip": "Lab2B\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T05:39:29.017Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Program.cs",
-              "RelativeDocumentMoniker": "Lab2B\\Program.cs",
-              "ToolTip": "C:\\Users\\patri\\Desktop\\GITHUB PROJECTS\\C# Shapes Assignment 2\\Assignment 2\\Lab2B\\Program.cs",
-              "RelativeToolTip": "Lab2B\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T04:15:16.997Z"
             }
           ]
         }

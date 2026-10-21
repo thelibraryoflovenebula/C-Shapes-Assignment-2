@@ -30,3 +30,10 @@ C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2a\Lab 
 C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2a\Lab 2A\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
 C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2a\Lab 2A\Lab2A\obj\Debug\Lab2A.exe
 C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2a\Lab 2A\Lab2A\obj\Debug\Lab2A.pdb
+C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.exe.config
+C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.exe
+C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.pdb
+C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.exe
+C:\Users\patri\Desktop\GITHUB PROJECTS\C# Shapes Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.pdb

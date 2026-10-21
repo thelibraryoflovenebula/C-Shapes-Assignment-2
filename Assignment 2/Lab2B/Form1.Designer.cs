@@ -53,15 +53,15 @@
             this.clearBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.testBox = new System.Windows.Forms.TextBox();
-            this.clientDiscountLabel = new System.Windows.Forms.Label();
-            this.visitDiscountLabel = new System.Windows.Forms.Label();
-            this.priceOutput = new System.Windows.Forms.TextBox();
-            this.clientOutput = new System.Windows.Forms.TextBox();
-            this.serviceOutput = new System.Windows.Forms.TextBox();
-            this.serviceLabel = new System.Windows.Forms.Label();
-            this.dresserLabel = new System.Windows.Forms.Label();
             this.dresserOutput = new System.Windows.Forms.TextBox();
+            this.dresserLabel = new System.Windows.Forms.Label();
+            this.serviceLabel = new System.Windows.Forms.Label();
+            this.serviceOutput = new System.Windows.Forms.TextBox();
+            this.clientOutput = new System.Windows.Forms.TextBox();
+            this.priceOutput = new System.Windows.Forms.TextBox();
+            this.visitDiscountLabel = new System.Windows.Forms.Label();
+            this.clientDiscountLabel = new System.Windows.Forms.Label();
+            this.testBox = new System.Windows.Forms.TextBox();
             this.hairDresserBox.SuspendLayout();
             this.servicesBox.SuspendLayout();
             this.clientTypeBox.SuspendLayout();
@@ -328,6 +328,7 @@
             this.exitBtn.TabIndex = 6;
             this.exitBtn.Text = "Exit";
             this.exitBtn.UseVisualStyleBackColor = false;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
             // groupBox1
             // 
@@ -349,41 +350,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Calculate";
             // 
-            // testBox
+            // dresserOutput
             // 
-            this.testBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.testBox.Location = new System.Drawing.Point(12, 451);
-            this.testBox.Name = "testBox";
-            this.testBox.ReadOnly = true;
-            this.testBox.Size = new System.Drawing.Size(266, 13);
-            this.testBox.TabIndex = 8;
+            this.dresserOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dresserOutput.Location = new System.Drawing.Point(107, 37);
+            this.dresserOutput.Name = "dresserOutput";
+            this.dresserOutput.ReadOnly = true;
+            this.dresserOutput.Size = new System.Drawing.Size(81, 13);
+            this.dresserOutput.TabIndex = 12;
             // 
-            // clientDiscountLabel
+            // dresserLabel
             // 
-            this.clientDiscountLabel.AutoSize = true;
-            this.clientDiscountLabel.Location = new System.Drawing.Point(18, 76);
-            this.clientDiscountLabel.Name = "clientDiscountLabel";
-            this.clientDiscountLabel.Size = new System.Drawing.Size(84, 13);
-            this.clientDiscountLabel.TabIndex = 5;
-            this.clientDiscountLabel.Text = "Client Discount: ";
+            this.dresserLabel.AutoSize = true;
+            this.dresserLabel.Location = new System.Drawing.Point(25, 37);
+            this.dresserLabel.Name = "dresserLabel";
+            this.dresserLabel.Size = new System.Drawing.Size(73, 13);
+            this.dresserLabel.TabIndex = 11;
+            this.dresserLabel.Text = "Dresser Price:";
             // 
-            // visitDiscountLabel
+            // serviceLabel
             // 
-            this.visitDiscountLabel.AutoSize = true;
-            this.visitDiscountLabel.Location = new System.Drawing.Point(24, 98);
-            this.visitDiscountLabel.Name = "visitDiscountLabel";
-            this.visitDiscountLabel.Size = new System.Drawing.Size(77, 13);
-            this.visitDiscountLabel.TabIndex = 6;
-            this.visitDiscountLabel.Text = "Visit Discount: ";
+            this.serviceLabel.AutoSize = true;
+            this.serviceLabel.Location = new System.Drawing.Point(25, 56);
+            this.serviceLabel.Name = "serviceLabel";
+            this.serviceLabel.Size = new System.Drawing.Size(73, 13);
+            this.serviceLabel.TabIndex = 10;
+            this.serviceLabel.Text = "Service Price:";
             // 
-            // priceOutput
+            // serviceOutput
             // 
-            this.priceOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.priceOutput.Location = new System.Drawing.Point(107, 120);
-            this.priceOutput.Name = "priceOutput";
-            this.priceOutput.ReadOnly = true;
-            this.priceOutput.Size = new System.Drawing.Size(81, 13);
-            this.priceOutput.TabIndex = 7;
+            this.serviceOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.serviceOutput.Location = new System.Drawing.Point(107, 56);
+            this.serviceOutput.Name = "serviceOutput";
+            this.serviceOutput.ReadOnly = true;
+            this.serviceOutput.Size = new System.Drawing.Size(81, 13);
+            this.serviceOutput.TabIndex = 9;
             // 
             // clientOutput
             // 
@@ -395,41 +396,42 @@
             this.clientOutput.TabIndex = 8;
             this.clientOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // serviceOutput
+            // priceOutput
             // 
-            this.serviceOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.serviceOutput.Location = new System.Drawing.Point(107, 56);
-            this.serviceOutput.Name = "serviceOutput";
-            this.serviceOutput.ReadOnly = true;
-            this.serviceOutput.Size = new System.Drawing.Size(81, 13);
-            this.serviceOutput.TabIndex = 9;
+            this.priceOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.priceOutput.Location = new System.Drawing.Point(107, 120);
+            this.priceOutput.Name = "priceOutput";
+            this.priceOutput.ReadOnly = true;
+            this.priceOutput.Size = new System.Drawing.Size(81, 13);
+            this.priceOutput.TabIndex = 7;
             // 
-            // serviceLabel
+            // visitDiscountLabel
             // 
-            this.serviceLabel.AutoSize = true;
-            this.serviceLabel.Location = new System.Drawing.Point(25, 56);
-            this.serviceLabel.Name = "serviceLabel";
-            this.serviceLabel.Size = new System.Drawing.Size(73, 13);
-            this.serviceLabel.TabIndex = 10;
-            this.serviceLabel.Text = "Service Price:";
+            this.visitDiscountLabel.AutoSize = true;
+            this.visitDiscountLabel.Location = new System.Drawing.Point(24, 98);
+            this.visitDiscountLabel.Name = "visitDiscountLabel";
+            this.visitDiscountLabel.Size = new System.Drawing.Size(77, 13);
+            this.visitDiscountLabel.TabIndex = 6;
+            this.visitDiscountLabel.Text = "Visit Discount: ";
             // 
-            // dresserLabel
+            // clientDiscountLabel
             // 
-            this.dresserLabel.AutoSize = true;
-            this.dresserLabel.Location = new System.Drawing.Point(25, 37);
-            this.dresserLabel.Name = "dresserLabel";
-            this.dresserLabel.Size = new System.Drawing.Size(73, 13);
-            this.dresserLabel.TabIndex = 11;
-            this.dresserLabel.Text = "Dresser Price:";
+            this.clientDiscountLabel.AutoSize = true;
+            this.clientDiscountLabel.Location = new System.Drawing.Point(18, 76);
+            this.clientDiscountLabel.Name = "clientDiscountLabel";
+            this.clientDiscountLabel.Size = new System.Drawing.Size(84, 13);
+            this.clientDiscountLabel.TabIndex = 5;
+            this.clientDiscountLabel.Text = "Client Discount: ";
             // 
-            // dresserOutput
+            // testBox
             // 
-            this.dresserOutput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dresserOutput.Location = new System.Drawing.Point(107, 37);
-            this.dresserOutput.Name = "dresserOutput";
-            this.dresserOutput.ReadOnly = true;
-            this.dresserOutput.Size = new System.Drawing.Size(81, 13);
-            this.dresserOutput.TabIndex = 12;
+            this.testBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.testBox.ForeColor = System.Drawing.Color.Red;
+            this.testBox.Location = new System.Drawing.Point(12, 451);
+            this.testBox.Name = "testBox";
+            this.testBox.ReadOnly = true;
+            this.testBox.Size = new System.Drawing.Size(266, 13);
+            this.testBox.TabIndex = 8;
             // 
             // Form1
             // 

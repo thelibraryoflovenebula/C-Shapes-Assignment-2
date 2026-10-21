@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+/** STATEMENT OF AUTHORSHIP
+ * I, Neil Patrick Olaires, 000964569 certify that this material is my original work.  
+ * No other person's work has been used without due acknowledgement.
+ */
 
 namespace Lab2B
 {
@@ -18,6 +22,8 @@ namespace Lab2B
         public Form1()
         {
             InitializeComponent();
+            janeRadioBtn.Checked = true;
+            adultRadioBtn.Checked = true;
         }
 
         //METHODS
@@ -38,7 +44,8 @@ namespace Lab2B
 
             if (!allChecked)
             {
-                testBox.Text = "Must check one hairdresser, service, and client type.";
+                testBox.Text = "Must check at least one service.";
+                testBox.ForeColor = Color.Red;
             } 
             else
             {
@@ -46,30 +53,53 @@ namespace Lab2B
                 {
                     if (visitValidation > 0)
                     {
+                        //reset text box
                         testBox.Text = "";
 
+                        //HAIRDRESSOR PICK
                         int dresser = 0;
-                        string service = "OOOO";
+                        if (janeRadioBtn.Checked)     { dresser = 1; }
+                        else if (patRadioBtn.Checked) { dresser = 2; }
+                        else if (ronRadioBtn.Checked) { dresser = 3; }
+                        else if (sueRadioBtn.Checked) { dresser = 4; }
+                        else /*lauraRadioBtn.Checked*/{ dresser = 5; }
+
+                        //SERVICE CHECK
+                        string serviceString = "";
+                        if (cutCheckBtn.Checked)        { serviceString += "X"; } else { serviceString += "O"; }
+                        if (colourCheckBtn.Checked)     { serviceString += "X"; } else { serviceString += "O"; }
+                        if (highlightCheckBtn.Checked)  { serviceString += "X"; } else { serviceString += "O"; }
+                        if (extCheckBtn.Checked)        { serviceString += "X"; } else { serviceString += "O"; }
+
+                        //CLIENT PICK 
+                        
                         int client = 0;
-                        int visit = visitValidation;
+                        if (adultRadioBtn.Checked)          { client = 1; }
+                        else if (childRadioBtn.Checked)     { client = 2; }
+                        else if (studentRadioBtn.Checked)   { client = 3; }
+                        else  /*seniorRadioBtn.Checked */   { client = 4; }
 
-                        TotalCalc calc = new TotalCalc(dresser, service, client, visit);
+                        int visit = visitValidation; //already implemented
 
-                        dresserOutput.Text = $"${calc.baseRate}";
-                        serviceOutput.Text = $"${calc.serviceRate}";
-                        clientOutput.Text = $"${calc.clientDiscount}";
-                        visitOutput.Text = $"${calc.visitDiscount}";
-                        priceOutput.Text = $"${calc.totalPrice}";
+                        TotalCalc calc = new TotalCalc(dresser, serviceString, client, visit);
+
+                        dresserOutput.Text = $"${calc.baseRate:F2}";
+                        serviceOutput.Text = $"${calc.serviceRate:F2}";
+                        clientOutput.Text = $"${calc.clientDiscount:F2}";
+                        visitOutput.Text = $"${calc.visitDiscount:F2}";
+                        priceOutput.Text = $"${calc.totalPrice:F2}";
                         
                     }
                     else
                     {
                         testBox.Text = "Must be an integer (positive)";
+                        testBox.ForeColor = Color.Red;
                     }
                 }
                 else
                 {
                     testBox.Text = "Must be an integer (non-decimal numbers)";
+                    testBox.ForeColor = Color.Red;
                 }
             }
         }
@@ -149,7 +179,8 @@ namespace Lab2B
                 }
             }
 
-
+            janeRadioBtn.Checked = true;
+            adultRadioBtn.Checked = true;
             testBox.Text = "";
             visitTextBox.Text = "";
 
@@ -163,9 +194,20 @@ namespace Lab2B
 
 
         }
+
+        private void exitBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
 
+    /// <summary>
+    /// class for making total calculations
+    /// 
+    /// resorted to object orienteted code for calculating and 
+    /// showing values for client calculations
+    /// </summary>
     internal class TotalCalc
     {
         //ATTRIBUTES

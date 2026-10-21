@@ -1,0 +1,74 @@
+LEVEL 1 (ABSTRACT):
+✔ Shape		
+
+LEVEL 2 (ABSTRACT): 
+✔ TwoDimensional
+✔ ThreeDimensional
+
+LEVEL 3a [TwoDimensional]: 
+✔ Rectangle
+✔ Square
+✔ Triangle
+✔ Circle
+✔ Ellipse
+
+LEVEL 3b [ThreeDimensional]:
+✔ Box 
+✔ Tetrahedron
+✔ Sphere
+✔ Cylinder
+
+
+
+
+
+[FOR BLANK COPY PASTE]
+using System;
+
+namespace Lab2A
+{
+    public class Rectangle : TwoDimensional
+    {
+
+        //ATTRIBUTES
+        private override double length;
+        private override double width;
+
+        //CONSTRUCTOR 
+        public Rectangle() 
+        {
+
+        }
+
+        //OVERRIDEN METHODS
+        public static void SetData()
+        {
+
+        }
+
+        public static double CalculateArea()
+        {
+
+        }
+
+        public static double CalculateVolume()
+        {
+
+        }
+
+        public override string ToString()
+        {
+
+        }
+        
+
+
+    }
+}
+
+/** CHECKLIST
+ *  1. SetData()
+ *  2. CalculateArea()
+ *  3. CalculateVolume()
+ *  4. ToString()
+ */

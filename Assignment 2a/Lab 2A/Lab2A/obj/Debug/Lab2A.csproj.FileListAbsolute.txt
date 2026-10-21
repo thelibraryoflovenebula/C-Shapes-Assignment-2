@@ -1,0 +1,25 @@
+C:\Users\000964569\Downloads\Week 6\Assignment 2\Lab2A\bin\Debug\Lab2A.exe.config
+C:\Users\000964569\Downloads\Week 6\Assignment 2\Lab2A\bin\Debug\Lab2A.exe
+C:\Users\000964569\Downloads\Week 6\Assignment 2\Lab2A\bin\Debug\Lab2A.pdb
+C:\Users\000964569\Downloads\Week 6\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+C:\Users\000964569\Downloads\Week 6\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+C:\Users\000964569\Downloads\Week 6\Assignment 2\Lab2A\obj\Debug\Lab2A.exe
+C:\Users\000964569\Downloads\Week 6\Assignment 2\Lab2A\obj\Debug\Lab2A.pdb
+C:\Users\000964569\Downloads\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+C:\Users\000964569\Downloads\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+C:\Users\000964569\Downloads\Assignment 2\Lab2A\obj\Debug\Lab2A.exe
+C:\Users\000964569\Downloads\Assignment 2\Lab2A\obj\Debug\Lab2A.pdb
+C:\Users\000964569\Downloads\Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.exe.config
+C:\Users\000964569\Downloads\Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.exe
+C:\Users\000964569\Downloads\Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.pdb
+C:\Users\000964569\Downloads\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+C:\Users\000964569\Downloads\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+C:\Users\000964569\Downloads\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.exe
+C:\Users\000964569\Downloads\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.pdb
+C:\Users\000964569\Downloads\Assignment 2 18066\Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.exe.config
+C:\Users\000964569\Downloads\Assignment 2 18066\Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.exe
+C:\Users\000964569\Downloads\Assignment 2 18066\Assignment 2\Assignment 2\Lab2A\bin\Debug\Lab2A.pdb
+C:\Users\000964569\Downloads\Assignment 2 18066\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+C:\Users\000964569\Downloads\Assignment 2 18066\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+C:\Users\000964569\Downloads\Assignment 2 18066\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.exe
+C:\Users\000964569\Downloads\Assignment 2 18066\Assignment 2\Assignment 2\Lab2A\obj\Debug\Lab2A.pdb
